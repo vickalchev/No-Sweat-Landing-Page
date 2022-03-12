@@ -1,0 +1,18 @@
+{
+  "name": "no-sweat-landing-page",
+  "version": "1.0.0",
+  "description": "No Sweat Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "No-Sweat-Landing-Page"
+  },
+  "author": "Vic Kalchev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
