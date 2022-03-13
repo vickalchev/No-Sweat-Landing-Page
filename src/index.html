@@ -3,40 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body>
-  <div 
-    class="
-    fixed
-    -top-1/3
-    -left-1/4
-    
-    
-    h-1/2
-    w-96
-    scale-y-150
-    rotate-45
-    transform origin-bottom-left
-    bg-amber-300
-    ">
-  </div>
-</div>
-  <nav  
-    class="
-      static 
-      container 
-      md 
-      mx-5 
-      my-5 
-      flex flex-row 
-      justify-end">
-      <div class="p-5">Get Started</div>
-      <div class="p-5">Workouts</div>
-      <div class="p-5">About</div>
-      <div class= "p-5 ml-32">
-      <button class="bg-amber-300 px-7 py-2 rounded-md" type="button">Signup</button>
-    </nav> 
+<body class="font-Inter">
+  <header>
+     
+    <nav  
+      class="
+        container
+        flex items-center 
+        py-4 
+        mt-4
+        sm:mt-12
+       ">
+        <ul class="
+          hidden 
+          sm:flex flex-1
+          justify-end
+          items-center
+          gap-12
+          ">
+          <li class="cursor-pointer">Get Started</li>
+          <li class="cursor-pointer">Workouts</li>
+          <li class="cursor-pointer">About</li>
+          <button class="bg-amber-300 px-7 py-2 rounded-md" type="button">Signup</button>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <i class="text-2xl fas fa-bars"></i>
+        </div>
+      </nav> 
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="container 
+      flex flex-col-reverse 
+      lg:flex-row items-center
+      gap-12
+      mt-14
+      lg:mt-28
+      ">
+      <!-- Content -->
+      <div class="flex flex-1 flex-col items-center
+      lg:items-start">
+            <img src="./assets/Workout-Girl-Stretching.png" alt="Workout Girl" class="md:sm lg:lg  "> 
+      </div>
+
+      <div class="border-black flex flex-1 flex-col items-left lg:items-start sm:items-center xs:items-center">
+
+        <h2 class="pl-4 font-bold text-7xl sm:text-7xl lg:text-7xl text-left lg:text-left mb-4">Train</h2>
+        <h2 class="pl-4 font-bold text-7xl lg:text-7xl text-left lg:text-left mb-4">Rinse</h2>
+        <h2 class="pl-4 font-bold text-7xl lg:text-7xl text-left lg:text-left mb-4">Repeat</h2>        
+      </div>
+
+    </div>
+  </section>
+  <!-- We Are Section-->
+  <section class="relative bg-slate-100 pt-20 pb-20">
+    <div class="container">
+      
+      <h1 class="font-bold text-7xl">We are...</h1>
+      <h2 class="text-5xl text-slate-500 pl-12 italic">a group of inspired women building the future of fitness. Join us on our journey.</h2>
+      
+    </div>
+
+  </section>
+
+  <!-- CTA 1 -->
+  <section class="relative">
+    <!-- This section contain two columns that need to stack on top of each other for small screens. -->
+    <div class="container 
+      flex flex-col-reverse
+      lg:flex-row items-center
+      gap-12
+      " >
+      
+
+
+    </div>
+
+
+  </section>
+
+  <!-- About -->
+  <section>
+
+
+  </section>
+
+  <!-- CTA 2 -->
+  <section>
+
+
+  </section>
+
+  
     
   
 </body>
